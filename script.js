@@ -4,8 +4,6 @@ const listContainer = document.querySelector('[data-lists]');
 const newListForm = document.querySelector('[data-new-list-form]');
 const newListInput = document.querySelector('[data-new-list-input]');
 
-console.log('listContainer', listContainer)
-
 let lists = [];
 
 newListForm.addEventListener('submit', function(e) {
